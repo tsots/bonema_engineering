@@ -1,0 +1,30 @@
+@import "./base/reset";
+@import "./base/typography";
+@import "./layout/header";
+
+@import "./layout/container";
+
+// body {
+//   background-color: magenta;
+// }
+
+@import "./pages/index";
+@import "./pages/about";
+@import "./pages/services/utilitities";
+@import "./pages/services/solar";
+@import "./pages/services/hydro";
+@import "./pages/services/wind";
+@import "./pages/services/wireMesh";
+@import "./pages/services/storage";
+
+// body, html{
+//     background: green;
+//     max-width: 1920px;
+// }
+
+.hero,
+.billboard {
+  p {
+    color: white;
+  }
+}

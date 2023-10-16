@@ -1,0 +1,56 @@
+{
+  "billboard": {
+    "title": "Wind Energy Systems",
+    "text": "Wind energy systems harness the power of wind to generate electricity. They are a form of renewable energy that contributes to reducing greenhouse gas emissions and dependence on fossil fuels. Wind energy systems consist of various components that work together to capture and convert wind energy into usable electricity. There are two primary categories/types of wind energy systems: onshore and offshore.",
+    "img": "/turbine.svg"
+  },
+  "sectionOne": {
+    "title": "Onshore Wind Energy Systems",
+    "text": "Onshore wind energy systems are installed on land and are the most common type of wind energy installations. They consist of the following main components:",
+    "features": [
+      {
+        "title": "Wind Turbines",
+        "text": "These are the structures that directly capture wind energy and convert it into mechanical energy. Wind turbines consist of rotor blades attached to a hub, which is connected to a generator. When the wind blows, it causes the rotor blades to spin, turning the generator and producing electricity."
+      },
+      {
+        "title": "Tower",
+        "text": "The tower supports the wind turbine at an elevated height to capture higher and more consistent wind speeds. Towers can be made of steel, concrete, or other materials."
+      },
+      {
+        "title": "Nacelle",
+        "text": "The nacelle is located at the top of the tower and houses the gearbox, generator, and other components necessary for converting the rotational energy of the rotor into electricity."
+      },
+      {
+        "title": "Control System",
+        "text": "This system monitors wind conditions and adjusts the orientation of the rotor blades to optimize energy capture while ensuring safe operation."
+      },
+      {
+        "title": "Power Grid Connection",
+        "text": "The generated electricity is transmitted to the power grid through cables and transformers, where it can be distributed to homes, businesses, and industries."
+      }
+    ]
+  },
+  "sectionTwo": {
+    "title": "Offshore Wind Energy Systems",
+    "text": "Offshore wind energy systems are installed in bodies of water, usually in shallow coastal areas or continental shelves. They have similar components to onshore systems, but with some differences:",
+    "features": [
+      {
+        "title": "Foundation",
+        "text": "Offshore turbines require specialized foundations to anchor them in the water. These foundations can be fixed to the seabed (monopile or jacket foundations) or float on the surface (floating platforms)."
+      },
+      {
+        "title": "Substation",
+        "text": "Offshore installations often have a substation platform where the generated electricity is collected, transformed to a higher voltage, and then transmitted to the onshore grid through underwater cables."
+      },
+      {
+        "title": "Transmission Infrastructure",
+        "text": "The electricity generated offshore is transported to the shore through undersea cables, and from there, it is integrated into the main power grid."
+      },
+      {
+        "title": "Environmental Considerations",
+        "text": "Offshore wind farms must consider additional environmental factors, such as marine life, seabed conditions, and navigational safety."
+      }
+    ]
+  },
+  "summary": "Both onshore and offshore wind energy systems come in various sizes, ranging from small-scale installations suitable for residential use to large utility-scale wind farms. The technology behind wind energy systems continues to advance, resulting in more efficient and cost-effective solutions for generating clean electricity from the wind."
+}

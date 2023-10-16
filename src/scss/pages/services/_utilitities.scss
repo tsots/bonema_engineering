@@ -1,0 +1,168 @@
+#utilitiesPage {
+  .teaser {
+    &__container {
+      display: grid;
+      grid-template-columns: minmax(1.6rem, 1fr) 480px minmax(1.6rem, 1fr);
+
+      .header {
+        row-gap: 3rem;
+        padding-block: 3rem;
+        grid-column: 2/4;
+      }
+
+      .teaser__features {
+        padding-block: 3rem;
+        grid-column: 2/4;
+        row-gap: 3rem;
+        column-gap: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .teaser__summary {
+        row-gap: 3rem;
+        padding-block: 3rem;
+        grid-column: 2/4;
+      }
+
+      @include mq(sm) {
+        grid-template-columns: minmax(1.6rem, 1fr) $sm-scr minmax(1.6rem, 1fr);
+
+        .header,
+        .teaser__features,
+        .teaser__summary {
+          row-gap: 3rem;
+          padding-block: 3rem;
+          grid-column: 2/3;
+        }
+      }
+
+      @include mq(md) {
+        grid-template-columns: minmax(1.6rem, 1fr) $md-scr minmax(1.6rem, 1fr);
+
+        .header,
+        .teaser__features,
+        .teaser__summary {
+          row-gap: 3rem;
+          padding-block: 3rem;
+          grid-column: 2/3;
+        }
+      }
+
+      @include mq(lg) {
+        grid-template-columns: minmax(1.6rem, 1fr) $lg-scr minmax(1.6rem, 1fr);
+
+        .header,
+        .teaser__features,
+        .teaser__summary {
+          row-gap: 3rem;
+          padding-block: 3rem;
+          grid-column: 2/3;
+        }
+      }
+    }
+  }
+  .features {
+    &__container {
+      display: grid;
+      grid-template-columns: minmax(1.6rem, 1fr) $xs-scr minmax(1.6rem, 1fr);
+
+      .header {
+        grid-column: 2/3;
+      }
+
+      .features__features {
+        grid-column: 2/3;
+        row-gap: 3rem;
+        column-gap: 3rem;
+        padding-block: 3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+
+      @include mq(sm) {
+        grid-template-columns: minmax(1.6rem, 1fr) $sm-scr minmax(1.6rem, 1fr);
+        .features__features {
+          grid-column: 2/3;
+          row-gap: 3rem;
+          column-gap: 3rem;
+          padding-block: 3rem;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          justify-items: auto;
+        }
+      }
+
+      @include mq(md) {
+        grid-template-columns: minmax(1.6rem, 1fr) $md-scr minmax(1.6rem, 1fr);
+      }
+
+      @include mq(lg) {
+        grid-template-columns: minmax(1.6rem, 1fr) $lg-scr minmax(1.6rem, 1fr);
+      }
+      @include mq(xl) {
+        grid-template-columns: minmax(1.6rem, 1fr) $xl-scr minmax(1.6rem, 1fr);
+      }
+    }
+  }
+
+  // Section BENEFITS
+  .benefits {
+    &__container {
+      display: grid;
+      grid-template-columns: minmax(1.6rem, 1fr) $xs-scr minmax(1.6rem, 1fr);
+      // justify-content: space-around;
+
+      .header {
+        grid-column: 2/3;
+      }
+
+      .benefits__benefits {
+        grid-column: 2/3;
+        row-gap: 3rem;
+        column-gap: 3rem;
+        padding-block: 3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        // justify-content: space-between;
+        // margin-inline: auto;
+        justify-items: center;
+      }
+
+      @include mq(sm) {
+        grid-template-columns: minmax(1.6rem, 1fr) $sm-scr minmax(1.6rem, 1fr);
+        .benefits__benefits {
+          grid-column: 2/3;
+          row-gap: 3rem;
+          column-gap: 3rem;
+          padding-block: 3rem;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          //   justify-content: space-around;
+          // margin-inline: auto;
+        }
+      }
+      @include mq(md) {
+        grid-template-columns: minmax(1.6rem, 1fr) $md-scr minmax(1.6rem, 1fr);
+      }
+      @include mq(lg) {
+        grid-template-columns: minmax(1.6rem, 1fr) $lg-scr minmax(1.6rem, 1fr);
+      }
+
+      @include mq(xl) {
+        grid-template-columns: minmax(1.6rem, 1fr) $xl-scr minmax(1.6rem, 1fr);
+
+        .benefits__benefits {
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+
+  .feature,
+  .teaser__feature,
+  .benefit {
+    max-width: 360px;
+  }
+}

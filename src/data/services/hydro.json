@@ -1,0 +1,60 @@
+{
+  "billboard": {
+    "title": "Hydro Energy Systems",
+    "text": "Hydropower is a renewable and sustainable energy source that has been utilized for centuries to generate power. It involves capturing the kinetic energy of moving water and transforming it into mechanical or electrical energy.",
+    "img": "/image-hydro.png"
+  },
+
+  "intro": {
+    "title": "Conventional Hydropower",
+    "features": [
+      {
+        "title": "Large-scale Hydropower",
+        "text": "These are large dams and reservoirs that create significant water storage. The stored water is released through turbines to generate electricity. Examples include the Hoover Dam in the United States and the Three Gorges Dam in China."
+      },
+      {
+        "title": "Small-scale Hydropower",
+        "text": "These are smaller installations, often involving smaller dams or even natural waterfalls. They are suitable for powering remote communities, agricultural operations, or industries."
+      }
+    ]
+  },
+  "features": [
+    {
+      "title": "Run-of-River Hydropower",
+      "text": "Unlike conventional hydropower, run-of-river systems do not require large reservoirs. Instead, they divert a portion of the flowing river's water through a penstock (pipeline) to turbines, generating electricity as the water flows back into the river."
+    },
+    {
+      "title": "Pumped Storage Hydropower",
+      "text": "This is a two-reservoir system where water is pumped from a lower reservoir to an upper reservoir during times of low electricity demand. During peak demand periods, water is released from the upper reservoir to the lower reservoir through turbines, generating electricity."
+    },
+    {
+      "title": "Tidal Hydropower",
+      "text": "Tidal energy is harnessed by capturing the kinetic energy of ocean tides. Tidal power plants use the rise and fall of tides to generate electricity."
+    },
+    {
+      "title": "Wave Energy",
+      "text": " This involves capturing the energy from the motion of ocean waves and converting it into electricity. Wave energy devices can be located offshore and can be used in conjunction with other renewable energy sources."
+    },
+    {
+      "title": "Ocean Current Energy",
+      "text": "Similar to tidal energy, ocean current energy harnesses the kinetic energy of ocean currents to generate electricity. Specialized underwater turbines are used for this purpose."
+    },
+    {
+      "title": "Hydrokinetic Energy",
+      "text": "This involves harnessing the kinetic energy of flowing rivers or ocean currents without the need for dams or large installations. Devices such as underwater turbines or floating platforms are used to capture energy from the moving water."
+    },
+    {
+      "title": "Micro Hydropower",
+      "text": "Extremely small-scale hydropower systems that can be installed in rural or off-grid areas to provide localized power generation."
+    },
+    {
+      "title": "Hybrid Systems",
+      "text": "These combine hydropower with other renewable energy sources, such as solar or wind, to provide a more stable and consistent power output."
+    },
+    {
+      "title": "Decentralized Hydropower",
+      "text": "Involves small-scale installations that are distributed throughout a region, reducing the need for large centralized power plants and transmission infrastructure."
+    }
+  ],
+  "summary": "Each of these categories has its own advantages, disadvantages, and considerations, depending on factors such as geographical location, available water resources, environmental impact, and energy demand. The choice of hydropower solution depends on these factors and the specific goals of a particular energy project."
+}

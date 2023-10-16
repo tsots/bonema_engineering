@@ -1,0 +1,24 @@
+@import "../base/breakpoints";
+
+.container {
+  margin-inline: auto;
+  @include mq(xs) {
+    // max-width: $xs-scr;
+  }
+
+  @include mq(sm) {
+    // max-width: $sm-scr;
+  }
+
+  @include mq(md) {
+    // max-width: $md-scr;
+  }
+
+  @include mq(lg) {
+    // max-width: $lg-scr;
+  }
+
+  @include mq(xl) {
+    // max-width: $xl-scr;
+  }
+}

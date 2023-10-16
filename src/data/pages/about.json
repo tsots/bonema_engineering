@@ -1,0 +1,50 @@
+{
+  "billboard": {
+    "title": "about us",
+    "text": "Bonema Engineering is a trailblazing renewable energy company that places sustainability and quality at the forefront of its operations. With a strong commitment to delivering reliable and affordable electricity to communities, Bonema engineering's integrated management system, experienced leadership, and industry expertise position it as a leader in the renewable energy sector in South Africa and Botswana.",
+    "img": ""
+  },
+
+  "intro": {
+    "title": "Who are we",
+    "text": "Bonema Engineering is a renowned renewable energy company with a robust integrated management system that enables its operations on a global scale. Founded in March 2015,the company specializes in utilities management, focusing on the generation, distribution, and provision of sustainable and affordable electricity solutions. Bonema Engineering prioritizes viability and sustainability, aiming to provide top-quality energy resources and services to communities in South Africa and Botswana.",
+    "leaders": {
+      "title": "leadership team",
+      "user": [
+        {
+          "name": "bokang mosala",
+          "designation": "managing director"
+        },
+        {
+          "name": "maemili ramataboe",
+          "designation": "finance director"
+        },
+        {
+          "name": "rebaone kgobokoe",
+          "designation": "head of legal"
+        }
+      ]
+    },
+    "img": "/image-about-intro.png"
+  },
+  "benefits": [
+    {
+      "slug": "sustainability-focus",
+      "title": "sustainability focus",
+      "text": "Bonema Engineering’s core principle is to prioritize sustainability in every aspect of its operations, from resource identification to electricity distribution, ensuring long-term benefits for communities.",
+      "img": "/image-sustainability.png"
+    },
+    {
+      "slug": "community-impact",
+      "title": "community impact",
+      "text": "Bonema Engineering recognizes the potential negative effects of unsustainable projects on communities, and therefore, their commitment to sustainability translates into positive economic and social impacts.",
+      "img": "/image-impact.png"
+    },
+    {
+      "slug": "quality-assurance",
+      "title": "quality assurance",
+      "text": "The company places a strong emphasis on providing top-quality products and services, comparable to those found in developed countries, ensuring reliability and uninterrupted energy supply.",
+      "img": "/image-quality-assurance.png"
+    }
+  ]
+}

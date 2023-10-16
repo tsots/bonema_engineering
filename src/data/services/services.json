@@ -1,0 +1,44 @@
+{
+  "billboard": {
+    "title": "services and solutions",
+    "text": "Bonema Engineering offers a comprehensive range of renewable energy solutions to industrial, commercial, and residential clients. The company’s diverse portfolio includes solar power, inverters, windmills, and hydropower systems. Bonema Engineering specializes in:"
+  },
+  "services": [
+    {
+      "icon": "",
+      "title": "Solar Power Solutions",
+      "text": "Embrace the power of the sun with our customized solar solutions that cater to residential, commercial, and industrial needs.",
+      "url": "/services/solar"
+    },
+    {
+      "icon": "",
+      "title": "Wind Energy Systems",
+      "text": "Tap into the wind's potential to generate clean and reliable energy, contributing to a cleaner and more sustainable future.",
+      "url": "/services/wind"
+    },
+    {
+      "icon": "",
+      "title": "Energy Storage Solutions",
+      "text": "Store excess energy efficiently and intelligently, ensuring a seamless power supply even during peak demand periods.",
+      "url": "/services/storage"
+    },
+    {
+      "icon": "",
+      "title": "Hydro Energy Systems",
+      "text": "Store excess energy efficiently and intelligently, ensuring a seamless power supply even during peak demand periods.",
+      "url": "/services/hydro"
+    },
+    {
+      "icon": "",
+      "title": "Wire Mesh Solutions",
+      "text": "Bonema Engineering wire mesh solutions are versatile and adaptable material applications across a multitude of industries.",
+      "url": "/services/wire"
+    },
+    {
+      "icon": "",
+      "title": "Utilities Management",
+      "text": "Imagine a world where you have complete control over your electricity, water, gas, and more, all from one easy-to-use dashboard.",
+      "url": "/services/utilities"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+$header: 60px;
+
+header {
+  background: #d9d9d9;
+  height: $header;
+  .container {
+    color: #000000;
+    display: grid;
+    grid-template-columns: minmax(1.6rem, 1fr) minmax(0,calc($xs-scr/2)) minmax(0,calc($xs-scr/2)) minmax(1.6rem,1fr);
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+      grid-column: 2/4;
+      height: $header;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-content: space-between;
+
+    }
+
+    .toggle {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      height: 100%;
+      justify-self: flex-end;
+      list-style-type: none;
+      li {
+        // display: inline-block;
+
+        height: $header;
+
+        a {
+          text-decoration: none;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          padding-inline: 1rem;
+          align-items: center;
+          font-family: "Rubik";
+          font-size: 16px;
+          text-transform: uppercase;
+
+          &:hover {
+            background-color: white;
+            color: teal;
+          }
+        }
+      }
+    }
+
+    @include mq(sm){
+      grid-template-columns: minmax(1.6rem, 1fr) minmax(0,calc($sm-scr/2)) minmax(0,calc($sm-scr/2)) minmax(1.6rem,1fr);
+    }
+
+    @include mq(md){
+      grid-template-columns: minmax(1.6rem, 1fr) minmax(0,calc($md-scr/2)) minmax(0,calc($md-scr/2)) minmax(1.6rem,1fr);
+    }
+
+    @include mq(lg){
+      grid-template-columns: minmax(1.6rem, 1fr) minmax(0,calc($lg-scr/2)) minmax(0,calc($lg-scr/2)) minmax(1.6rem,1fr);
+    }
+
+    @include mq(xl){
+      grid-template-columns: minmax(1.6rem, 1fr) minmax(0,calc($xl-scr/2)) minmax(0,calc($xl-scr/2)) minmax(1.6rem,1fr);
+    }
+  }
+}

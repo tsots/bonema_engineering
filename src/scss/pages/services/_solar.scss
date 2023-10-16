@@ -1,0 +1,55 @@
+#solarPage {
+  .sectionOne,.sectionTwo, .sectionThree, .sectionFour,.sectionFive, .sectionSix  {
+    display: grid;
+    grid-template-columns: minmax(1.6rem, 1fr) $xs-scr minmax(1.6rem, 1fr);
+
+    &__container {
+        padding-block: 5rem;
+      grid-column: 2/3;
+
+      .header{
+        display: grid;
+padding-block: 3rem;
+justify-items: center;
+        .title{}
+
+      }
+    }
+
+    @include mq(xs) {
+      grid-template-columns: minmax(1.6rem, 1fr) $xs-scr minmax(1.6rem, 1fr);
+    }
+    @include mq(sm) {
+      grid-template-columns: minmax(1.6rem, 1fr) $sm-scr minmax(1.6rem, 1fr);
+    }
+    @include mq(md) {
+      grid-template-columns: minmax(1.6rem, 1fr) $md-scr minmax(1.6rem, 1fr);
+    }
+    @include mq(lg) {
+      grid-template-columns: minmax(1.6rem, 1fr) $lg-scr minmax(1.6rem, 1fr);
+    }
+    // @include mq(xl){
+    //     grid-template-columns: minmax(1.6rem,1fr) $xl-scr minmax(1.6rem,1fr);
+
+    // }
+
+    &__features {
+      grid-column: 2/3;
+      display: grid;
+
+      grid-template-columns: 1fr;
+      row-gap: 3rem;
+      column-gap: 15rem;
+
+      @include mq(sm){
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+      }
+
+      @include mq(md){
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "billboard": {
+    "title": "Solar Energy Systems",
+    "text": "Solar power solutions refer to the various technologies, systems, and products that harness sunlight to generate electricity or heat. These solutions are used for both residential and commercial applications to reduce reliance on conventional fossil fuels and mitigate environmental impacts. Solar power solutions can be categorized based on their application and technology. Here are some common categories:",
+    "img": "/solar-solutions-panel.png"
+  },
+  "sectionOne": {
+    "title": "Photovoltaic (PV) Solar Panels",
+    "text": "Photovoltaic solar panels convert sunlight directly into electricity using semiconductor materials (usually silicon) that generate an electric current when exposed to photons. PV panels are widely used for residential, commercial, and utility-scale electricity generation.",
+    "features": [
+      {
+        "title": "Monocrystalline Solar Panels",
+        "text": "Made from a single crystal structure, they offer high efficiency and a sleek appearance."
+      },
+      {
+        "title": "Polycrystalline Solar Panels",
+        "text": "Made from multiple crystals, they are cost-effective but slightly less efficient than monocrystalline panels."
+      },
+      {
+        "title": "Thin-Film Solar Panels",
+        "text": "These panels are flexible and can be integrated into various surfaces but tend to have lower efficiency compared to crystalline panels."
+      }
+    ]
+  },
+  "sectionTwo": {
+    "title": "Solar Thermal Systems",
+    "text": "Solar thermal systems use sunlight to heat a fluid or material, which is then used for space heating, water heating, or electricity generation.",
+    "features": [
+      {
+        "title": "Solar Water Heaters",
+        "text": "These systems heat water for domestic use or space heating."
+      },
+      {
+        "title": "Concentrated Solar Power (CSP)",
+        "text": "CSP systems concentrate sunlight onto a small area to generate high temperatures that drive a turbine for electricity generation."
+      },
+      {
+        "title": "Solar Cookers",
+        "text": "Designed for cooking food using solar energy, especially in regions with limited access to traditional cooking fuels."
+      }
+    ]
+  },
+  "sectionThree": {
+    "title": "Solar Farms and Power Plants",
+    "text": "Large-scale solar installations designed to generate electricity that is fed into the grid for widespread distribution.",
+    "features": [
+      {
+        "title": "Utility-Scale Solar Farms",
+        "text": "Large solar arrays typically located in sunny regions to generate significant electricity."
+      },
+      {
+        "title": "Floating Solar Farms",
+        "text": "Solar panels installed on bodies of water, such as reservoirs or ponds."
+      }
+    ]
+  },
+  "sectionFour": {
+    "title": "Off-Grid Solar Systems",
+    "text": "These systems are not connected to the main electrical grid and are often used in remote areas or for backup power.",
+    "features": [
+      {
+        "title": "Off-Grid Solar Power Systems",
+        "text": "Generate and store electricity using batteries for use when the sun isn't shining."
+      },
+      {
+        "title": "Solar-Powered Water Pumps",
+        "text": "Used for irrigation and water supply in remote areas."
+      },
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "sectionFive": {
+    "title": "Solar-Powered Consumer Products",
+    "text": "Small-scale solar solutions for everyday use.",
+    "features": [
+      {
+        "title": "Solar Chargers",
+        "text": "Charge portable devices like phones, tablets, and laptops."
+      },
+      {
+        "title": "Solar-Powered Lights",
+        "text": "Outdoor lighting solutions that charge during the day and provide light at night."
+      }
+    ]
+  },
+  "sectionSix": {
+    "title": "Building-Integrated Photovoltaics (BIPV)",
+    "text": "Integrating solar panels into building materials like roofs, windows, and facades to generate power while serving architectural functions.",
+    "features": [{}]
+  },
+  "summary": "These categories represent the diversity of solar power solutions available today. The choice of solution depends on factors like energy needs, location, budget, and specific application requirements."
+}

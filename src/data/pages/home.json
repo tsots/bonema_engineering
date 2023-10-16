@@ -1,0 +1,81 @@
+{
+  "span": "Bonema Engineering",
+  "hero": {
+    "title": "bonema engineering",
+    "text": "Experience the power of a cleaner, more sustainable future with <span>Bonema Engineering</span>. Let's collaborate to drive positive change, reduce carbon footprints, and build a brighter tomorrow for Pretoria and beyond. Contact us today to embark on a journey towards a greener, more sustainable world.",
+    "img": "/flower.png",
+    "btn": "learn more"
+  },
+  "introduction": {
+    "title": "Services and Solutions",
+    "text": "Bonema Engineering offers a comprehensive range of renewable energy solutions to industrial, commercial, and residential clients. The company’s diverse portfolio includes solar power, inverters, windmills, and hydropower systems. Bonema Engineering specializes in:"
+  },
+  "sectionOne": {
+    "who": {
+      "title": "Who are we",
+      "text": "Bonema Engineering is a renowned renewable energy company with a robust integrated management system that enables its operations on a global scale. Founded in March 2015, the company specializes in utilities management, focusing on the generation, distribution, and provision of sustainable and affordable electricity solutions. Bonema Engineering prioritizes viability and sustainability, aiming to provide top-quality energy resources and services to communities in South Africa and Botswana."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "text": "Our mission is to revolutionize the way energy is sourced and utilized. We believe that sustainability and progress can go hand in hand, and we are committed to delivering innovative renewable energy solutions that reduce carbon footprints while bolstering economic growth."
+    },
+    "img": ""
+  },
+  "features": {
+    "title": "",
+    "features": [
+      {
+        "icon": "",
+        "title": "Consulting and Integration",
+        "text": "Our experts collaborate with you to design and implement renewable energy systems that align with your goals and requirements."
+      },
+      {
+        "icon": "",
+        "title": "Sustainable Practices",
+        "text": "Beyond energy generation, we provide guidance on sustainable practices to enhance overall energy efficiency and reduce waste."
+      },
+      {
+        "icon": "",
+        "title": "Customer Care",
+        "text": "Providing exceptional customer service and engagement, including training and induction programs for electricity users."
+      },
+      {
+        "icon": "",
+        "title": "Maintenance and Support:",
+        "text": "Offering 24/7 maintenance structures to ensure the consistent operation of energy systems."
+      },
+      {
+        "icon": "",
+        "title": "Billing and Payment Solutions",
+        "text": "Offering affordable tariffs and simple payment options for customer’s convenience."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why choose Bonema Engineering",
+    "benefits": [
+      {
+        "icon": "",
+        "title": "Local Expertise",
+        "text": "Our deep understanding of Pretoria's energy landscape positions us to design solutions that are perfectly suited to local conditions."
+      },
+      {
+        "icon": "",
+        "title": "Technical Excellence",
+        "text": "Our team comprises skilled engineers and experts who ensure every project is executed to the highest standards of quality and reliability."
+      },
+      {
+        "icon": "",
+        "title": "Innovation",
+        "text": "We are at the forefront of renewable energy advancements, integrating cutting-edge technologies to maximize efficiency and performance."
+      }
+    ]
+  },
+  "accreditation": {
+    "text": "Bonema Engineering boasts industry accreditations and partnerships, establishing its credibility and expertise. Notable clients include Eskom, City of Johannesburg, Hazelmere Dam, and Mweusi Properties.",
+    "images": [
+      { "url": "", "img": "" },
+      { "url": "", "img": "" }
+    ]
+  }
+}
